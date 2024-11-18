@@ -21,7 +21,7 @@ public class KO_BL {
         boolean[] wybraniK = new boolean[daneKosmonautow.length];
 
 
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 5; i++) {
             int[] specK = new int[SPEC];
 
             int index = 0;
@@ -49,6 +49,8 @@ public class KO_BL {
             if(specK[0] > 0 && specK[1] > 0 && specK[2] > 0 && specK[3] > 0 && liczbaWybranych < liczbaK ){
                 najlepszeRozwiazanie = biezaceRozwiazanie;
                 liczbaK = liczbaWybranych;
+            }else {
+                wybraniK[index] = !wybraniK[index];
             }
 
         }
