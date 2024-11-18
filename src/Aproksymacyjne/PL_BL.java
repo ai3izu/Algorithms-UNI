@@ -19,7 +19,7 @@ public class PL_BL {
         boolean[] spakowaneP = new boolean[N];
 
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             int indexPrzedmiotu = rand.nextInt(N);
 
             int obecnaWartosc = 0;
@@ -41,6 +41,8 @@ public class PL_BL {
                 sumaWartosci = obecnaWartosc;
                 sumaObjetosci = obecnaObjetosc;
                 iloscSpakowanych = spakowane;
+            }else {
+                spakowaneP[indexPrzedmiotu] = !spakowaneP[indexPrzedmiotu];
             }
         }
 
