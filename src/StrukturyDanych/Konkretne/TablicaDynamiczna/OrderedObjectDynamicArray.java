@@ -1,4 +1,4 @@
-package StrukturyDanych.TablicaDynamiczna;
+package StrukturyDanych.Konkretne.TablicaDynamiczna;
 
 public class OrderedObjectDynamicArray {
     private Person[] tab = new Person[2];

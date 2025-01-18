@@ -1,4 +1,4 @@
-package StrukturyDanych.TablicaDynamiczna;
+package StrukturyDanych.Konkretne.TablicaDynamiczna;
 
 public class DynamicArray {
     private int[] tab = new int[2];
