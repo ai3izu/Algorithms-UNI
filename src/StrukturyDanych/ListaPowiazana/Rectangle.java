@@ -9,13 +9,6 @@ public class Rectangle {
         this.b = b;
     }
 
-    public int getA() {
-        return a;
-    }
-
-    public int getB() {
-        return b;
-    }
 
     public int getArea() {
         return a * b;
@@ -27,10 +20,10 @@ public class Rectangle {
     }
 
     @Override
-    public boolean equals(Object o){
-        if(this == o) return  true;
-        if(o == null || getClass() != o.getClass()) return false;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
         Rectangle rectangle = (Rectangle) o;
-        return  a == rectangle.a && b == rectangle.b;
+        return a == rectangle.a && b == rectangle.b;
     }
 }
