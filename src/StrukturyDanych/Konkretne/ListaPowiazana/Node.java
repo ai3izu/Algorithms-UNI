@@ -1,4 +1,4 @@
-package StrukturyDanych.ListaPowiazana;
+package StrukturyDanych.Konkretne.ListaPowiazana;
 
 public class Node {
     public int value;

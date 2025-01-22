@@ -1,4 +1,4 @@
-package StrukturyDanych.TablicaDynamiczna;
+package StrukturyDanych.Konkretne.TablicaDynamiczna;
 
 import java.util.Objects;
 
