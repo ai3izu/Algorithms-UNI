@@ -15,6 +15,7 @@ public class DynamicArray {
 
         dynamicArray.insertAt(3, 6);
         dynamicArray.insertAt(0, 0);
+        System.out.println(dynamicArray.find(6));;
         System.out.println(dynamicArray);
     }
 
@@ -26,6 +27,22 @@ public class DynamicArray {
         }
         this.tab[this.size] = value;
         this.size++;
+    }
+
+    public void remove(int index){
+        if (index < 0 || index >= this.size) {
+            throw new IndexOutOfBoundsException("Nieprawidlowy index dla tablicy");
+        }
+        System.arraycopy(this.tab, index + 1, this.tab, index, this.size - index - 1);
+        this.size--;
+    }
+
+    // find == indexOf
+    public int find(int value){
+        for (int i = 0; i < this.size; i++) {
+            if (tab[i] == value) {return i;}
+        }
+        return -1;
     }
 
     public void insertAt(int index, int value) {
