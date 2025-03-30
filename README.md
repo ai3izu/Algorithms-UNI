@@ -1,6 +1,6 @@
 # Algorithms-UNI
 
-📚 **Algorithms-UNI** to repozytorium stworzone na potrzeby nauki i eksploracji algorytmów oraz struktur danych w języku **Java**. Zawiera implementacje zarówno klasycznych metod, jak i bardziej zaawansowanych podejść, takich jak techniki aproksymacyjne i dynamiczne. Repozytorium może służyć jako baza do nauki, eksperymentów i doskonalenia umiejętności algorytmicznych. 
+📚 **Algorithms-UNI** - repozytorium stworzone na potrzeby nauki algorytmów oraz struktur danych w języku **Java**. Zawiera implementacje zarówno klasycznych metod, jak i bardziej zaawansowanych podejść, takich jak techniki aproksymacyjne i dynamiczne. Repozytorium może służyć jako baza do nauki, eksperymentów i doskonalenia umiejętności algorytmicznych. 
 
 ## 📂 Struktura katalogów
 
